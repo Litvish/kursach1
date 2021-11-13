@@ -1,0 +1,23 @@
+{% extends 'main/layout.html'%}
+
+{% block title %}Наши комнаты{% endblock %}
+
+{% block content %}
+
+    <div class="features">
+        <h1>Я лох</h1>
+        {% if tours %}
+            {% for el in tours %}
+                <div class="alert alert-warning">
+                    <h3>{{ el.title}}</h3>
+                    <p>{{ el.anons }}</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>Комнат нет</p>
+        {% endif %}
+
+
+    </div>
+
+{% endblock %}

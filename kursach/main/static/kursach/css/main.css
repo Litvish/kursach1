@@ -1,0 +1,139 @@
+body {
+background: WHITE;
+}
+header {
+    background: #181818;
+    padding:;
+    color: #fff;
+    max-height: auto;
+    }
+header span{
+float:left
+justify-content:flex-start;}
+ header .container {
+    max-width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #4d4d4d;
+    height: auto;
+
+}
+header img {
+    width:80px;
+    float:left;
+}
+header .cell {
+
+}
+header .logo {
+    font-size: 32px;
+    margin-left: -40px;
+    font-weight: solid;
+    position: relative;
+    top: -5px
+
+}
+header h3 {
+    margin-top: px;
+    font-size: 24px;
+}
+header ulx {list-style: none}
+header .box, header a{
+    color: #fff;
+    margin: 7px;
+    text-decoration: none;
+    transition: transform .6s ease;
+    justify-content: flex-end;
+    font-size: px;
+}
+header .box:hover, header a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+main{
+height: 1000px;
+}
+main .features{
+    margin-top: 100px;
+    max-width: 300px;
+    display: flex;
+    height:  auto;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    color: BLACK;
+}
+main .box{
+    max-width: 300px;
+    justify-content: center;
+    display: flex;
+}
+
+main .features h1 {font-size: 35px;}
+main .features p {max-width: 400px;
+margin: 20px auto}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%
+    text-align: left;
+
+
+.social {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+.social__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 46px;
+    text-decoration: none;
+    transition: transform .6s ease;
+}
+
+.social__item img {
+    display: block;
+    text-decoration: none;
+    transition: transform .6s ease;
+}
+.grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -12px
+}
+
+.grid__item {
+    padding-left: 12px;
+    float: left;
+    width: 100%
+}
+}
+.container {
+    max-width: 1020px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+
+.footer__nav {
+    list-style: none;
+    margin: 28px 0 20px;
+    padding: 0;
+}
+.footer__nav-link{
+text-decoration: none;
+color: #666;
+display: flex;
+justify-content: flex-end;
+}
