@@ -3,9 +3,8 @@
 {% block title %}Форма бронирования{% endblock %}
 
 {% block content %}
-
+<h1>Заполните форму для получения доступа в наш коворкинг</h1>
     <div class="features">
-        <h1>Я лох</h1>
         <form method="post">
             {% csrf_token %}<br>
             {{ form.fio }}<br>

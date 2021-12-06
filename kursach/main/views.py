@@ -11,3 +11,7 @@ def index(request):
 
 def about(request):
     return render(request, 'main/about.html')
+
+
+def api(request):
+    return render(request, 'main/api.html')

@@ -295,6 +295,7 @@ fieldset[disabled] .btn-theme {
 .footer .footer-logo {
   width: 85px;
   height: 21px;
+  min-height: calc(100vh - 80px);
 }
 
 .footer .footer-list {
